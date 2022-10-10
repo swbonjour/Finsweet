@@ -1,0 +1,8 @@
+@import "src/scss/screenSize.scss";
+
+.home {
+    padding-top: 6rem;
+    @media screen and (max-width: $adaptive-screen-size) {
+        padding-top: 0rem;
+    }
+}

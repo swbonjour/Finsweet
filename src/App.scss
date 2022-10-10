@@ -1,0 +1,19 @@
+@import "src/scss/colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $page-background-color;
+    font-family: "Poppins", sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.App {
+    background-color: $page-background-color;
+}

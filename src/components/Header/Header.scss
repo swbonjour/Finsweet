@@ -1,0 +1,42 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    max-width: inherit;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    background-color: $page-background-color;
+    @media screen and (max-width: $adaptive-screen-size) {
+        width: 80%;
+    }
+    &__nav {
+        width: 70%;
+        &__ul {
+            width: 100%;
+            list-style-type: none;
+            display: flex;
+            gap: 7%;
+            align-items: baseline;
+            &__item__link {
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+                font-size: calc(12px + 4 * (100vw / 1280));
+            }
+        }
+    }
+
+    &__logo {
+        color: $page-logo-color;
+        font-weight: 600;
+        font-size: calc(18px + 3 * (100vw / 1280));
+    }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.hero {
+    display: flex;
+    margin-top: 2rem;
+    @media screen and (max-width: $adaptive-screen-size) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__description {
+        color: white;
+        padding-top: 4rem;
+        width: 90%;
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%
+        }
+        &__title {
+            font-weight: 700;
+            font-size: calc(38px + 18 * (100vw / 1280));
+            font-family: 'Playfair Display', sans-serif;
+        }
+
+        &__additional {
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1280));
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        &__menu {
+            color: $button-text-color;
+            background-color: $page-logo-color;
+            width: 10rem;
+            height: 3rem;
+            font-weight: 500;
+            font-size: calc(14px + 2 * (100vw / 1280));
+            border: none;
+            z-index: -1;
+            @media screen and (max-width: $adaptive-screen-size) {
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        &__div {
+            width: 50%;
+            @media screen and (max-width: $adaptive-screen-size) {
+               width: 100%; 
+               margin-top: 2rem;
+            }
+        }
+    }
+
+    &__schedule {
+        color: white;
+        padding-top: 1rem;
+        width: fit-content;
+        &__item {
+            &__title {
+                font-family: 'Playfair Display', sans-serif;
+                padding-top: 1rem;
+                font-size: calc(16px + 4 * (100vw / 1280));
+            }
+            &__additional {
+                padding-top: 0.5rem;
+                color: #999999;
+                font-size: calc(12px + 4 * (100vw / 1280));
+            }
+        }
+    }
+}

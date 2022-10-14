@@ -1,0 +1,127 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.menu {
+    margin-top: 6rem;
+    &__header {
+        &__article {
+            font-family: "Playfair Display", sans-serif;
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1280));
+            color: $page-logo-color;
+            position: relative;
+            &::after {
+                content: " ";
+                position: absolute;
+                width: 2rem;
+                height: 1px;
+                top: 0.7rem;
+                left: 8rem;
+                background-color: white;
+            }
+        }
+        
+        &__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @media screen and (max-width: 1400px) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            &__title {
+                font-family: "Playfair Display", sans-serif;
+                font-weight: 700;
+                font-size: calc(15px + 30 * (100vw / 1280));
+                color: white;
+                margin-top: 1rem;
+                width: 60%;
+                @media screen and (max-width: 1400px) {
+                    width: 100%
+                }
+            }
+
+            &__additional {
+                font-weight: 400;
+                font-size: calc(12px + 4 * (100vw / 1280));
+                color: $page-content-additional;
+                width: 40%;
+                @media screen and (max-width: 1400px) {
+                    width: 100%;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 6rem;
+        @media screen and (max-width: 1400px) {
+            margin-top: 4rem;
+        }
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
+            gap: 4rem;
+        }
+        &__item {
+            background-color: #1F1D21;
+            flex: 25%;
+            max-width: 405px;
+            @media screen and (max-width: 1000px) {
+               flex: 40%; 
+            }
+            &__title {
+                font-weight: 700;
+                font-size: calc(18px + 14 * (100vw / 1280));
+                font-family: "Playfair Display", sans-serif;
+                color: white;
+            }
+
+            &__card {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #1F1D21;
+                height: 4rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                color: white;
+
+                &__title {
+                    font-family: "Playfair Display", sans-serif;
+                    font-weight: 700;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                }
+
+                &__price {
+                    font-weight: 500;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                }
+            }
+
+            &__img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &__button {
+        color: $button-text-color;
+        background-color: $page-logo-color;
+        width: 10rem;
+        height: 3rem;
+        font-weight: 500;
+        font-size: calc(14px + 2 * (100vw / 1280));
+        border: none;
+        z-index: -1;
+        margin-top: 2rem;
+        cursor: pointer;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}

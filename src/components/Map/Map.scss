@@ -1,0 +1,50 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    background-color: #1F1D21;
+    @media screen and (max-width: $adaptive-screen-size) {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $page-background-color;
+    }
+    &__content {
+        width: 30%;
+        margin: 0 auto;
+        @media screen and (max-width: $adaptive-screen-size) {
+            margin: 0;
+            width: 100%;
+        }
+        &__item {
+            margin-top: 1rem;
+            &__header {
+                font-weight: 700;
+                font-size: calc(16px + 4 * (100vw / 1280));
+                font-family: "Playfair Display", sans-serif;
+                color: white;
+            }
+
+            &__additional {
+                margin-top: 0.5rem;
+                font-weight: 400;
+                font-size: calc(12px + 4 * (100vw / 1280));
+                color: $page-content-additional;
+            }
+        }
+    }
+
+    &__map {
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%;
+            margin-top: 4rem;
+        }
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

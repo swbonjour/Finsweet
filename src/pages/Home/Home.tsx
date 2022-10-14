@@ -5,6 +5,7 @@ import MoreAbout from '../../components/MoreAbout/MoreAbout'
 import Serving from '../../components/Serving/Serving'
 import Menu from '../../components/Menu/Menu'
 import Video from '../../components/Video/Video'
+import Blog from '../../components/Blog/Blog'
 
 import "./Home.scss"
 
@@ -17,6 +18,7 @@ export default function Home() {
             <Serving></Serving>
             <Menu></Menu>
             <Video></Video>
+            <Blog></Blog>
         </section>
     </div>
   )

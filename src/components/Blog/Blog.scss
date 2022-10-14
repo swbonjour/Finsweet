@@ -1,0 +1,65 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.blog {
+    margin-top: 6rem;
+    &__header {
+        &__title {
+            font-family: "Playfair Display", sans-serif;
+            font-weight: 700;
+            font-size: calc(15px + 30 * (100vw / 1280));
+            color: white;
+            margin-top: 1rem;
+            width: 60%;
+            @media screen and (max-width: 1400px) {
+                width: 100%
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        margin-top: 4rem;
+        justify-content: space-between;
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+            gap: 2rem;
+        }
+        &__item {
+            width: 28%;
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+            }
+            &__date {
+                font-weight: 400;
+                font-size: calc(12px + 2 * (100vw / 1280));
+                color: $page-content-additional;
+            }
+
+            &__title {
+                font-weight: 700;
+                font-size: calc(20px + 8 * (100vw / 1280));
+                font-family: "Playfair Display", sans-serif;
+                color: white;
+                margin-top: 1rem;
+            }
+
+            &__additional {
+                font-weight: 400;
+                font-size: calc(12px + 4 * (100vw / 1280));
+                color: $page-content-additional;
+                margin-top: 1rem;
+            }
+
+            &__img {
+                width: 100%;
+                height: auto;
+            }
+
+            &__text {
+                padding: 2rem;
+                background-color: #1F1D21;
+            }
+        }
+    }
+}

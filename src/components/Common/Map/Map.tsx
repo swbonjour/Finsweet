@@ -31,7 +31,7 @@ export default function Map() {
                 </div>
             </div>
             <div className="map__map">
-                <img src={require("./Map.png")} alt="map" className="map__map__img"/>
+                <img src={require("./Images/Map.png")} alt="map" className="map__map__img"/>
             </div>
         </main>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 
-import "./FlagSvg"
-import FlagSvg from './FlagSvg'
+import FlagSvg from './Images/FlagSvg'
 
 import "./MoreAbout.scss"
+
+import MenuButton from '../../../components/Common/MenuButton/MenuButton'
 
 export default function MoreAbout() {
   return (
@@ -30,11 +31,11 @@ export default function MoreAbout() {
                         <p className="about__content__enumeration__item__description">Through True Rich Attended does no end it his mother since favourable.</p>
                     </div>
                 </div>
-                <button className="about__content__menu">View Menu</button>
+                <MenuButton mt="2rem"></MenuButton>
             </div>
             <div className="about__img">
-                <img src={require("./Know more Image 1.png")} alt="chairs" className="about__img__one"/>
-                <img src={require("./Know more Image 2.png")} alt="chairs" className="about__img__two"/>
+                <img src={require("./Images/Know more Image 1.png")} alt="chairs" className="about__img__one"/>
+                <img src={require("./Images/Know more Image 2.png")} alt="chairs" className="about__img__two"/>
             </div>
         </main>
     </div>

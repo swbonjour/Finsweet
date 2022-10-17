@@ -2,6 +2,8 @@ import React from 'react'
 
 import "./Hero.scss"
 
+import MenuButton from '../../../components/Common/MenuButton/MenuButton'
+
 export default function Hero() {
   return (
     <div>
@@ -10,7 +12,7 @@ export default function Hero() {
                 <div className="hero__description">
                     <p className="hero__description__title">We serve high quality <br></br> foods of     all kinds.</p>
                     <p className="hero__description__additional">Lorem ipsum dolor, sit amet     consectetur adipisicing elit. Voluptatibus ducimus sit pariatur odio ab obcaecati.    </p>
-                    <button className="hero__description__menu">View Menu</button>
+                    <MenuButton></MenuButton>
                 </div>
                 <div className="hero__schedule">
                     <div className="hero__schedule__item">
@@ -28,7 +30,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="hero__img__div">
-                <img src={require("./HeaderImage.png")} alt="CupOfCoffe" className="hero__img"/>
+                <img src={require("./Images/HeaderImage.png")} alt="CupOfCoffe" className="hero__img"/>
             </div>
         </main>
     </div>

@@ -60,6 +60,7 @@
                 width: 30%;
                 @media screen and (max-width: $adaptive-screen-size) {
                     width: 100%;
+                    margin-bottom: 1rem;
                 }
                 &__header {
                     font-weight: 500;
@@ -81,23 +82,6 @@
                     color: $page-content-additional;
                     margin-top: 0.5rem;
                 }
-            }
-        }
-
-        &__menu {
-            color: $button-text-color;
-            background-color: $page-logo-color;
-            width: 10rem;
-            height: 3rem;
-            font-weight: 500;
-            font-size: calc(14px + 2 * (100vw / 1280));
-            border: none;
-            z-index: -1;
-            margin-top: 2rem;
-            cursor: pointer;
-            @media screen and (max-width: $adaptive-screen-size) {
-                margin-left: 50%;
-                transform: translateX(-50%);
             }
         }
     }

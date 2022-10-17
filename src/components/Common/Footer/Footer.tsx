@@ -2,10 +2,10 @@ import React from 'react'
 
 import "./Footer.scss"
 
-import FacebookSvg from './FacebookSvg'
-import TwitterSvg from './TwitterSvg'
-import InstagramSvg from './InstagramSvg'
-import InSvg from './InSvg'
+import FacebookSvg from './Images/FacebookSvg'
+import TwitterSvg from './Images/TwitterSvg'
+import InstagramSvg from './Images/InstagramSvg'
+import InSvg from './Images/InSvg'
 
 export default function Footer() {
   return (

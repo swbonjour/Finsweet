@@ -2,12 +2,12 @@ import React from 'react'
 
 import "./Serving.scss"
 
-import CakeSvg from './CakeSvg'
-import CoffeSvg from './CoffeSvg'
-import FoodSvg from './FoodSvg'
-import Cocktails from './Cocktails'
-import Grill from './Grill'
-import Snacks from './Snacks'
+import CakeSvg from './Images/CakeSvg'
+import CoffeSvg from './Images/CoffeSvg'
+import FoodSvg from './Images/FoodSvg'
+import Cocktails from './Images/CocktailsSvg'
+import Grill from './Images/GrillSvg'
+import Snacks from './Images/SnacksSvg'
 
 export default function Serving() {
   return (

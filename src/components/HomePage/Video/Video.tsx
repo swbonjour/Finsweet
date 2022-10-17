@@ -2,8 +2,7 @@ import React from 'react'
 
 import "./Video.scss"
 
-import "./BracketsSvg"
-import BracketsSvg from './BracketsSvg'
+import BracketsSvg from './Images/BracketsSvg'
 
 export default function Video() {
   return (
@@ -18,13 +17,13 @@ export default function Video() {
                             <p className="video__content__portfolio__contact__city">Bhubaneswar, Odisha</p>
                     </div>
                     <div className="video__content__portfolio__img">
-                            <img src={require("./Avatar.png")} alt="avatar" />
+                            <img src={require("./Images/Avatar.png")} alt="avatar" />
                     </div>
                 </div>
                 <div className="video__content__portfolio__line"></div>
             </div>
             <div className="video__video">
-                <img src={require("./Video.png")} alt="video" className="video__video__img"/>
+                <img src={require("./Images/Video.png")} alt="video" className="video__video__img"/>
             </div>
         </main>
     </div>

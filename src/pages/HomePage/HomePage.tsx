@@ -10,7 +10,7 @@ import Map from '../../components/Common/Map/Map'
 
 import "./Home.scss"
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
         <section className="home">

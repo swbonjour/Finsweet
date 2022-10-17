@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./Header.scss";
 
@@ -21,34 +22,34 @@ export default function Header() {
             <ul className="header__nav__ul">
               <div className="header__logo">{"{"}Finsweet</div>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/" className="header__nav__ul__item__link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/menu" className="header__nav__ul__item__link">
                   Menu
-                </a>
+                </Link>
               </li>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/about" className="header__nav__ul__item__link">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/story" className="header__nav__ul__item__link">
                   Our Story
-                </a>
+                </Link>
               </li>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/blog" className="header__nav__ul__item__link">
                   Blog
-                </a>
+                </Link>
               </li>
               <li className="header__nav__ul__item">
-                <a href="#" className="header__nav__ul__item__link">
+                <Link to="/contact" className="header__nav__ul__item__link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

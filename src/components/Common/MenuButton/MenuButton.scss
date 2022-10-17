@@ -15,4 +15,8 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
+    &__link {
+        text-decoration: none;
+        color: $button-text-color;
+    }
 }

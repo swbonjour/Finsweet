@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import "./Footer.scss"
 
@@ -14,12 +15,12 @@ export default function Footer() {
             <div className="footer__logo">{"{"}Finsweet</div>
             <nav className="footer__nav">
                 <div className="footer__nav__ul">
-                    <li className="footer__nav__ul__item">Home</li>
-                    <li className="footer__nav__ul__item">Menu</li>
-                    <li className="footer__nav__ul__item">About Us</li>
-                    <li className="footer__nav__ul__item">Our Story</li>
-                    <li className="footer__nav__ul__item">Blog</li>
-                    <li className="footer__nav__ul__item">Contact us</li>
+                    <Link to="/" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Home</li></Link>
+                    <Link to="/menu" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Menu</li></Link>
+                    <Link to="/about" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">About Us</li></Link>
+                    <Link to="/story" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Our Story</li></Link>
+                    <Link to="/blog" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Blog</li></Link>
+                    <Link to="/contact" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Contact us</li></Link>
                 </div>
             </nav>
             <div className="footer__downside">

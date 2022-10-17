@@ -33,6 +33,10 @@
             }
             &__item {
                 cursor: pointer;
+                &__link {
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }

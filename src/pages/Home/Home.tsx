@@ -7,6 +7,7 @@ import Menu from '../../components/Menu/Menu'
 import Video from '../../components/Video/Video'
 import Blog from '../../components/Blog/Blog'
 import Map from '../../components/Map/Map'
+import Footer from '../../components/Footer/Footer'
 
 import "./Home.scss"
 
@@ -21,6 +22,7 @@ export default function Home() {
             <Video></Video>
             <Blog></Blog>
             <Map></Map>
+            <Footer></Footer>
         </section>
     </div>
   )

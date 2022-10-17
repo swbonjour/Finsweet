@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
 import "./Menu.scss"
 
+import Map from '../Common/Map/Map'
+
 export default function Menu() {
+
+    const changeActive = (event: any) => {
+       event.currentTarget.classList.add("menu__choose__item__active")
+       
+       let sibling = event.currentTarget.parentNode?.firstElementChild
+
+       while(sibling) {
+        if(sibling != event.currentTarget) {
+            sibling.classList.remove("menu__choose__item__active")
+        }
+        sibling = sibling?.nextElementSibling
+       }
+    }
   return (
     <div>
         <main className="menu">
@@ -12,6 +27,14 @@ export default function Menu() {
                     <p className="menu__header__content__title">Discover our menu <br></br>chart</p>
                     <p className="menu__header__content__additional">Through True Rich Attended does no end it his mother since favourable real had half every him case in packages enquire we up ecstatic.. Through True Rich Attended does no end it his mother</p>
                 </div>
+            </div>
+            <div className="menu__choose">
+                <p className="menu__choose__item menu__choose__item__active" onClick={changeActive}>All</p>
+                <p className="menu__choose__item" onClick={changeActive}>Fast Food</p>
+                <p className="menu__choose__item" onClick={changeActive}>Coffe</p>
+                <p className="menu__choose__item" onClick={changeActive}>Cocktails</p>
+                <p className="menu__choose__item" onClick={changeActive}>Quafe Cake</p>
+                <p className="menu__choose__item" onClick={changeActive}>Snacks</p>
             </div>
             <div className="menu__content">
                 <div className="menu__content__item">
@@ -57,6 +80,7 @@ export default function Menu() {
                     </div>
                 </div>
             </div>
+            <Map></Map>
         </main>
     </div>
   )

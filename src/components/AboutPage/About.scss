@@ -1,0 +1,272 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize";
+
+.about {
+    display: flex;
+    margin-top: 6rem;
+    @media screen and (max-width: $adaptive-screen-size) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__content {
+        width: 50%;
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%;
+        }
+        &__article {
+            font-family: "Playfair Display", sans-serif;
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1280));
+            color: $page-logo-color;
+            position: relative;
+            &::after {
+                content: " ";
+                position: absolute;
+                width: 2rem;
+                height: 1px;
+                top: 0.7rem;
+                left: 13rem;
+                background-color: white;
+            }
+        }
+
+        &__title {
+            font-family: "Playfair Display", sans-serif;
+            font-weight: 700;
+            font-size: calc(15px + 30 * (100vw / 1280));
+            color: white;
+            margin-top: 1rem;
+        }
+
+        &__additional {
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1280));
+            color: $page-content-additional;
+            margin-top: 2rem;
+            text-align: justify;
+        }
+
+        &__enumeration {
+            display: flex;
+            margin-top: 3rem;
+            gap: 10%;
+            @media screen and (max-width: 700px) {
+                flex-direction: column;
+                gap: 0%;
+                align-items: center;
+            }
+            &__item {
+                width: 30%;
+                @media screen and (max-width: $adaptive-screen-size) {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+                &__header {
+                    font-weight: 500;
+                    font-size: calc(21px + 3 * (100vw / 1280));
+                    color: #C4E4EA;
+                    display: flex;
+                    gap: 1rem;
+                }
+
+                &__additional {
+                    font-weight: 400;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                    color: $page-content-additional;
+                }
+
+                &__description {
+                    font-weight: 400;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                    color: $page-content-additional;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    &__img {
+        width: 50%;
+        position: relative;
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 4rem;
+        }
+        &__one {
+            width: 35%;
+            height: auto;
+            max-width: 268px;
+            position: absolute;
+            bottom: 0;
+            left: 22%;
+            @media screen and (max-width: $adaptive-screen-size) {
+                position: static;
+                width: 30%;
+            }
+        }
+
+        &__two {
+            width: 35%;
+            height: auto;
+            max-width: 268px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            @media screen and (max-width: $adaptive-screen-size) {
+                position: static;
+                width: 30%;
+            }
+        }
+    }
+
+    &__new__york {
+        margin-top: 12rem;
+        width: 100%;
+        height: auto;
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    &__history {
+        margin-top: 6rem;
+        &__header {
+            font-weight: 700;
+            font-size: calc(28px + 4 * (100vw / 1280));
+            color: white;
+            font-family: "Playfair Display", sans-serif;
+        }
+
+        &__line {
+            margin-top: 2rem;
+            width: 100%;
+            border: none;
+            border-top: 2px dashed rgb(38.25, 38.25, 38.25);
+            display: flex;
+            justify-content: space-between;
+            &__orange__one {
+                width: 4rem;
+                height: 0.4rem;;
+                background-color: $page-logo-color;
+                transform: translateY(-4px);
+                @media screen and (max-width: $adaptive-screen-size) {
+                    display: none;
+                }
+            }
+
+            &__orange__two {
+                width: 4rem;
+                height: 0.4rem;;
+                background-color: $page-logo-color;
+                transform: translateY(-4px) translateX(-72px);
+                @media screen and (max-width: $adaptive-screen-size) {
+                    display: none;
+                }
+            }
+
+            &__orange__three {
+                width: 4rem;
+                height: 0.4rem;;
+                background-color: $page-logo-color;
+                transform: translateY(-4px);
+                transform: translateY(-4px) translateX(-142px);
+                @media screen and (max-width: $adaptive-screen-size) {
+                    display: none;
+                }
+            }
+
+            &__orange__four {
+                width: 4rem;
+                height: 0.4rem;;
+                background-color: $page-logo-color;
+                transform: translateY(-4px);
+                transform: translateY(-4px) translateX(-212px);
+                @media screen and (max-width: $adaptive-screen-size) {
+                    display: none;
+                }
+            }
+        }
+
+        &__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 2rem;
+            @media screen and (max-width: 800px) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            &__item {
+                width: 18%;
+                @media screen and (max-width: 800px) {
+                    width: fit-content;
+                    margin-top: 2rem;;
+                }
+                &__date {
+                    font-weight: 600;
+                    font-size: calc(28px + 4 * (100vw / 1280));
+                    color: white;
+                }
+
+                &__header {
+                    font-weight: 700;
+                    font-size: calc(16px + 4 * (100vw / 1280));
+                    color: white;
+                    font-family: "Playfair Display", sans-serif;
+                }
+
+                &__additional {
+                    margin-top: 1rem;
+                    font-weight: 400;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                    color: $page-content-additional;
+                }
+            }
+        }
+    }
+
+    &__company {
+        display: flex;
+        margin-top: 6rem;
+        align-items: baseline;
+        @media screen and (max-width: 800px) {
+            flex-direction: column; 
+        }
+        &__header {
+            font-weight: 700;
+            font-size: calc(38px + 10 * (100vw / 1280));
+            color: white;
+            font-family: "Playfair Display", sans-serif;
+            width: 50%;
+            @media screen and (max-width: 800px) {
+                width: 100%;
+            }
+        }
+
+        &__content {
+            width: 50%;
+            @media screen and (max-width: 800px) {
+                margin-top: 2rem;
+                width: 100%;
+            }
+            &__header {
+                font-weight: 700;
+                font-size: calc(28px + 4 * (100vw / 1280));
+                color: white;
+                font-family: "Playfair Display", sans-serif;
+            }
+
+            &__additional {
+                margin-top: 2rem;
+                font-weight: 400;
+                font-size: calc(12px + 4 * (100vw / 1280));
+                color: $page-content-additional;
+            }
+        }
+    }
+}

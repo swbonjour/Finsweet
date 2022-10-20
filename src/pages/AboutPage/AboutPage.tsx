@@ -5,7 +5,7 @@ import About from '../../components/AboutPage/About'
 export default function AboutPage() {
   return (
     <div>
-        <section className="about">
+        <section className="aboutPage">
             <About></About>
         </section>
     </div>

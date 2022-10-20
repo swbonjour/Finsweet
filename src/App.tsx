@@ -9,6 +9,7 @@ import Footer from './components/Common/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage';
 import MenuPage from './pages/MenuPage/MenuPage';
 import AboutPage from './pages/AboutPage/AboutPage';
+import StoryPage from './pages/StoryPage/StoryPage';
 
 import ScrollToTop from './helpers/ScrollToTop';
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/menu" element={<MenuPage />}></Route>
             <Route path="/about" element={<AboutPage />}></Route>
+            <Route path="/story" element={<StoryPage />}></Route>
           </Routes>
         </ScrollToTop>
         <Footer></Footer>

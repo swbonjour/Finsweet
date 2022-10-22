@@ -12,6 +12,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import StoryPage from './pages/StoryPage/StoryPage';
 import BlogPage from './pages/BlogPage/BlogPage';
 import BlogInnerPage from './pages/BlogInnerPage/BlogInnerPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 import ScrollToTop from './helpers/ScrollToTop';
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/story" element={<StoryPage />}></Route>
             <Route path="/blog" element={<BlogPage />}></Route>
             <Route path="/blog/theme" element={<BlogInnerPage />}></Route>
+            <Route path="/contact" element={<ContactPage />}></Route>
           </Routes>
         </ScrollToTop>
         <Footer></Footer>

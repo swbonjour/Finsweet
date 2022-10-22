@@ -1,0 +1,124 @@
+@import "src/scss/colors.scss";
+@import "src/scss/screenSize.scss";
+
+.contact {
+    margin-top: 6rem;
+    display: flex;
+    margin-bottom: 30rem;
+    justify-content: space-between;
+    @media screen and (max-width: $adaptive-screen-size) {
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+    &__content {
+        width: 50%;
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%;
+        }
+        &__header {
+            font-weight: 700;
+            font-size: calc(32px + 16 * (100vw / 1280));
+            color: white;
+            font-family: "Playfair Display", sans-serif;
+        }
+
+        &__additional {
+            margin-top: 1rem;
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1280));
+            color: $page-content-additional;
+        }
+
+        &__form {
+            &__data {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-between;
+                &__name {
+                    background-color: $page-background-color;
+                    border: 1px solid rgba(255, 255, 255, 0.04);
+                    width: 48%;
+                    height: 3rem;
+                    padding-left: 2rem;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+
+                &__email {
+                    background-color: $page-background-color;
+                    border: 1px solid rgba(255, 255, 255, 0.04);
+                    width: 48%;
+                    height: 3rem;
+                    padding-left: 2rem;
+                    font-size: calc(12px + 4 * (100vw / 1280));
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+            }
+
+            &__button {
+                margin-top: 1rem;
+                border: none;
+                outline: none;
+                background-color: #27252D;
+                width: 10rem;
+                height: 3rem;
+                font-weight: 400;
+                font-size: calc(12px + 4 * (100vw / 1280));
+                color: white;
+            }
+
+            &__message {
+                margin-top: 1rem;
+                background-color: $page-background-color;
+                border: 1px solid rgba(255, 255,255, 0.04);
+                width: 100%;
+                height: 7rem;
+                padding-left: 2rem;
+                font-size: calc(12px + 4 *(100vw / 1280));
+                &::placeholder {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    &__img {
+        width: 50%;
+        position: relative;
+        @media screen and (max-width: $adaptive-screen-size) {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 4rem;
+        }
+        &__one {
+            width: 35%;
+            height: auto;
+            max-width: 268px;
+            position: absolute;
+            top: 3rem;
+            left: 22%;
+            @media screen and (max-width: $adaptive-screen-size) {
+                position: static;
+                width: 30%;
+            }
+        }
+
+        &__two {
+            width: 35%;
+            height: auto;
+            max-width: 268px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            @media screen and (max-width: $adaptive-screen-size) {
+                position: static;
+                width: 30%;
+            }
+        }
+    }
+}

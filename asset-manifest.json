@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Finsweet/static/css/main.5780072f.css",
+    "main.js": "/Finsweet/static/js/main.881e4e80.js",
+    "static/media/BlogImage.png": "/Finsweet/static/media/BlogImage.9c99dbff56099e4359b8.png",
+    "static/media/Video.png": "/Finsweet/static/media/Video.e4cf434bdf31d9f1bdd8.png",
+    "static/media/NewYork.png": "/Finsweet/static/media/NewYork.dc2fa53b6d8e34b528c4.png",
+    "static/media/HeaderImage.png": "/Finsweet/static/media/HeaderImage.98c98c3d3a1cdad2fbe0.png",
+    "static/media/Image 1.png": "/Finsweet/static/media/Image 1.25cae3c15f1b4feb8756.png",
+    "static/media/BG.png": "/Finsweet/static/media/BG.606572ed1d1264bc3e9d.png",
+    "static/media/Know more Image 2.png": "/Finsweet/static/media/Know more Image 2.bcca6d44307ea3f66c7a.png",
+    "static/media/Contact Image 1.png": "/Finsweet/static/media/Contact Image 1.baacdc01cd863c63a531.png",
+    "static/media/Know more Image 1.png": "/Finsweet/static/media/Know more Image 1.fa8bc6f11c735b3a1d86.png",
+    "static/media/Fries.png": "/Finsweet/static/media/Fries.0c29f7e5d805ad66d650.png",
+    "static/media/Image 2.png": "/Finsweet/static/media/Image 2.6c6a79098e3f28bcb8fe.png",
+    "static/media/Sandwitch.png": "/Finsweet/static/media/Sandwitch.5da1be6f5111c84ff768.png",
+    "static/media/Burger.png": "/Finsweet/static/media/Burger.ada55ec6b1cc345588d7.png",
+    "static/media/Contact Image 2.png": "/Finsweet/static/media/Contact Image 2.4fd56adf656f0cc127e5.png",
+    "static/media/Coffe.png": "/Finsweet/static/media/Coffe.9408df1197554aabfe11.png",
+    "static/media/CupCake.png": "/Finsweet/static/media/CupCake.f89853369856666d1631.png",
+    "static/media/Map.png": "/Finsweet/static/media/Map.cd8d1b5b36b0b63dbf94.png",
+    "static/media/Soup.png": "/Finsweet/static/media/Soup.a48006f41c8f808089ca.png",
+    "static/media/Chair.png": "/Finsweet/static/media/Chair.f97b79ff033c19b7caeb.png",
+    "static/media/Table.png": "/Finsweet/static/media/Table.8dc1d1da87b15d3d521f.png",
+    "static/media/Bar.png": "/Finsweet/static/media/Bar.949bf007f9c7554e30f6.png",
+    "static/media/Cook.png": "/Finsweet/static/media/Cook.383c14dfdb2a85e72fcf.png",
+    "static/media/Woman.png": "/Finsweet/static/media/Woman.72cd97293eccd6c32d73.png",
+    "index.html": "/Finsweet/index.html",
+    "main.5780072f.css.map": "/Finsweet/static/css/main.5780072f.css.map",
+    "main.881e4e80.js.map": "/Finsweet/static/js/main.881e4e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5780072f.css",
+    "static/js/main.881e4e80.js"
+  ]
+}

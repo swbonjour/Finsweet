@@ -15,12 +15,12 @@ export default function Footer() {
             <div className="footer__logo">{"{"}Finsweet</div>
             <nav className="footer__nav">
                 <div className="footer__nav__ul">
-                    <Link to="/" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Home</li></Link>
-                    <Link to="/menu" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Menu</li></Link>
-                    <Link to="/about" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">About Us</li></Link>
-                    <Link to="/story" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Our Story</li></Link>
-                    <Link to="/blog" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Blog</li></Link>
-                    <Link to="/contact" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Contact us</li></Link>
+                    <Link to="/Finsweet" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Home</li></Link>
+                    <Link to="/Finsweet/menu" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Menu</li></Link>
+                    <Link to="/Finsweet/about" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">About Us</li></Link>
+                    <Link to="/Finsweet/story" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Our Story</li></Link>
+                    <Link to="/Finsweet/blog" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Blog</li></Link>
+                    <Link to="/Finsweet/contact" className="footer__nav__ul__item__link"><li className="footer__nav__ul__item">Contact us</li></Link>
                 </div>
             </nav>
             <div className="footer__downside">

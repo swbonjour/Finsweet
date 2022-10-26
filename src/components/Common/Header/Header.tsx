@@ -22,32 +22,32 @@ export default function Header() {
             <ul className="header__nav__ul">
               <div className="header__logo">{"{"}Finsweet</div>
               <li className="header__nav__ul__item">
-                <Link to="/" className="header__nav__ul__item__link">
+                <Link to="/Finsweet" className="header__nav__ul__item__link">
                   Home
                 </Link>
               </li>
               <li className="header__nav__ul__item">
-                <Link to="/menu" className="header__nav__ul__item__link">
+                <Link to="/Finsweet/menu" className="header__nav__ul__item__link">
                   Menu
                 </Link>
               </li>
               <li className="header__nav__ul__item">
-                <Link to="/about" className="header__nav__ul__item__link">
+                <Link to="/Finsweet/about" className="header__nav__ul__item__link">
                   About Us
                 </Link>
               </li>
               <li className="header__nav__ul__item">
-                <Link to="/story" className="header__nav__ul__item__link">
+                <Link to="/Finsweet/story" className="header__nav__ul__item__link">
                   Our Story
                 </Link>
               </li>
               <li className="header__nav__ul__item">
-                <Link to="/blog" className="header__nav__ul__item__link">
+                <Link to="/Finsweet/blog" className="header__nav__ul__item__link">
                   Blog
                 </Link>
               </li>
               <li className="header__nav__ul__item">
-                <Link to="/contact" className="header__nav__ul__item__link">
+                <Link to="/Finsweet/contact" className="header__nav__ul__item__link">
                   Contact
                 </Link>
               </li>

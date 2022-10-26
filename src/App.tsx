@@ -23,13 +23,13 @@ function App() {
         <Header></Header>
         <ScrollToTop>
           <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/menu" element={<MenuPage />}></Route>
-            <Route path="/about" element={<AboutPage />}></Route>
-            <Route path="/story" element={<StoryPage />}></Route>
-            <Route path="/blog" element={<BlogPage />}></Route>
-            <Route path="/blog/theme" element={<BlogInnerPage />}></Route>
-            <Route path="/contact" element={<ContactPage />}></Route>
+            <Route path="/Finsweet" element={<HomePage />}></Route>
+            <Route path="/Finsweet/menu" element={<MenuPage />}></Route>
+            <Route path="/Finsweet/about" element={<AboutPage />}></Route>
+            <Route path="/Finsweet/story" element={<StoryPage />}></Route>
+            <Route path="/Finsweet/blog" element={<BlogPage />}></Route>
+            <Route path="/Finsweet/blog/theme" element={<BlogInnerPage />}></Route>
+            <Route path="/Finsweet/contact" element={<ContactPage />}></Route>
           </Routes>
         </ScrollToTop>
         <Footer></Footer>

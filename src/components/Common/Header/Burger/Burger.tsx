@@ -29,12 +29,12 @@ export default function Burger() {
           <div className="burger__line__three__rotated"></div>
         </div>
         <div className="burger__nav">
-            <div className="burger__nav__item"><Link to="/" className="burger__nav__item__link">Home</Link></div>
-            <div className="burger__nav__item"><Link to="/menu" className="burger__nav__item__link">Menu</Link></div>
-            <div className="burger__nav__item"><Link to="/about" className="burger__nav__item__link">About Us</Link></div>
-            <div className="burger__nav__item"><Link to="/story" className="burger__nav__item__link">Our Story</Link></div>
-            <div className="burger__nav__item"><Link to="/blog" className="burger__nav__item__link">Blog</Link></div>
-            <div className="burger__nav__item"><Link to="/contact" className="burger__nav__item__link">Contact</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet" className="burger__nav__item__link">Home</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet/menu" className="burger__nav__item__link">Menu</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet/about" className="burger__nav__item__link">About Us</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet/story" className="burger__nav__item__link">Our Story</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet/blog" className="burger__nav__item__link">Blog</Link></div>
+            <div className="burger__nav__item"><Link to="/Finsweet/contact" className="burger__nav__item__link">Contact</Link></div>
           </div>
       </div>
     )

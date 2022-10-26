@@ -11,6 +11,6 @@ export type ButtonProps = {
 
 export default function MenuButton({ mt, ml, translateX }: ButtonProps) {
   return ( 
-    <Link to="/menu" className="button__link"><button className="button" style={{marginTop: mt, marginLeft: ml, transform: `translateX(${translateX})`}}>View Menu</button></Link>
+    <Link to="/Finsweet/menu" className="button__link"><button className="button" style={{marginTop: mt, marginLeft: ml, transform: `translateX(${translateX})`}}>View Menu</button></Link>
   )
 }

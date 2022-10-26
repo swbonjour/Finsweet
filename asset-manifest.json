@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Finsweet/static/css/main.5780072f.css",
-    "main.js": "/Finsweet/static/js/main.ac74e2a9.js",
+    "main.js": "/Finsweet/static/js/main.b6c6c856.js",
     "static/media/BlogImage.png": "/Finsweet/static/media/BlogImage.9c99dbff56099e4359b8.png",
     "static/media/Video.png": "/Finsweet/static/media/Video.e4cf434bdf31d9f1bdd8.png",
     "static/media/NewYork.png": "/Finsweet/static/media/NewYork.dc2fa53b6d8e34b528c4.png",
@@ -27,10 +27,10 @@
     "static/media/Woman.png": "/Finsweet/static/media/Woman.72cd97293eccd6c32d73.png",
     "index.html": "/Finsweet/index.html",
     "main.5780072f.css.map": "/Finsweet/static/css/main.5780072f.css.map",
-    "main.ac74e2a9.js.map": "/Finsweet/static/js/main.ac74e2a9.js.map"
+    "main.b6c6c856.js.map": "/Finsweet/static/js/main.b6c6c856.js.map"
   },
   "entrypoints": [
     "static/css/main.5780072f.css",
-    "static/js/main.ac74e2a9.js"
+    "static/js/main.b6c6c856.js"
   ]
 }

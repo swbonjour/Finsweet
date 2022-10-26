@@ -11,7 +11,7 @@ export default function Blog() {
             <p className="blog__header">Featured Blogs</p>
             <div className="blog__blogs">
                 <div className="blog__blogs__main">
-                    <Link to="/blog/theme">
+                    <Link to="/Finsweet/blog/theme">
                         <img src={require("./Image/BG.png")} alt="bg" className="blog__blogs__main__img"/>
                         <div className="blog__blogs__main__trending"><p className="blog__blogs__main__trending__text">TRENDING</p></div>
                         <div className="blog__blogs__main__content">
@@ -30,7 +30,7 @@ export default function Blog() {
                     </Link>
                 </div>
                 <div className="blog__blogs__additional">
-                    <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                    <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                     <div className="blog__blogs__additional__item">
                         <div className="blog__blogs__additional__item__img"><img src={require("./Image/Woman.png")} alt="woman" /></div>
                         <div className="blog__blogs__additional__item__content">
@@ -39,7 +39,7 @@ export default function Blog() {
                         </div>
                     </div>
                     </Link>
-                    <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                    <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                     <div className="blog__blogs__additional__item">
                         <div className="blog__blogs__additional__item__img"><img src={require("./Image/Coffe.png")} alt="coffe" /></div>
                         <div className="blog__blogs__additional__item__content">
@@ -48,7 +48,7 @@ export default function Blog() {
                         </div>
                     </div>
                     </Link>
-                    <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                    <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                     <div className="blog__blogs__additional__item">
                         <div className="blog__blogs__additional__item__img"><img src={require("./Image/Cook.png")} alt="cook" /></div>
                         <div className="blog__blogs__additional__item__content">
@@ -74,7 +74,7 @@ export default function Blog() {
                             </div>
                         </div>
                         <p className="blog__article__content__item__header">A guide to Thai     Curry</p>
-                        <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                        <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                         <p className="blog__article__content__item__more">Read More</p>
                         </Link>
                     </div>
@@ -90,7 +90,7 @@ export default function Blog() {
                             </div>
                         </div>
                         <p className="blog__article__content__item__header">The best guacamole recipe with only 4 ingredients</p>
-                        <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                        <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                         <p className="blog__article__content__item__more">Read More</p>
                         </Link>
                     </div>
@@ -106,7 +106,7 @@ export default function Blog() {
                             </div>
                         </div>
                         <p className="blog__article__content__item__header">The best guacamole recipe with only 4 ingredients</p>
-                        <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                        <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                         <p className="blog__article__content__item__more">Read More</p>
                         </Link>
                     </div>
@@ -122,7 +122,7 @@ export default function Blog() {
                             </div>
                         </div>
                         <p className="blog__article__content__item__header">The best guacamole recipe with only 4 ingredients</p>
-                        <Link to="/blog/theme" style={{textDecoration: "none"}}>
+                        <Link to="/Finsweet/blog/theme" style={{textDecoration: "none"}}>
                         <p className="blog__article__content__item__more">Read More</p>
                         </Link>
                     </div>
